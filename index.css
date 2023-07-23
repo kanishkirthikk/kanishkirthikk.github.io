@@ -1,0 +1,258 @@
+
+header{
+   display: flex;
+    background-color:grey;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+   border-radius: 25px;
+}
+li{
+padding: 15px;
+ display:inline;
+ line-height: 10px;
+ justify-content: center;
+ text-transform: uppercase;
+ color: white;
+}
+a{
+  text-decoration: none;
+
+  font-size: 20px;
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+  padding: 25px;
+  font-size: 20px;
+}
+header li:hover{
+  background-color: goldenrod;
+  height: 50px;;
+}
+.logo{
+  padding: 1PX;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+footer{
+
+  text-align: center;
+  padding-top: 5px;
+  text-justify: auto;
+  justify-content: end;
+  background-color: grey;
+  height: 30px;
+  border-radius: 25px;
+  color:whitesmoke;
+ text-transform: uppercase;
+}
+body{
+  justify-content: center;
+  
+}
+.Cricketkits{
+ 
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  border: 2px;
+  border-style: solid;
+}
+.FootBallkits{
+
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  border: 2px;
+  border-style: solid;
+}
+.VoleyBallkits{
+ 
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  border: 2px;
+  border-style: solid;
+}
+.Badmittonkits{
+
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  border: 2px;
+  border-style: solid;
+}
+.Swimingkits{
+
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  border: 2px;
+  border-style: solid;
+}
+#Home{
+  margin-top: 5PX;
+  padding: 10px;
+  color: black;
+  background-image: url("headbg.jpg ");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  
+}
+.a{
+  color:blue;
+}
+h3{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.crick{
+  width:100px;
+  height: 100px;
+  padding: 30px;
+ 
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.abtimg{
+  padding: 25px;
+  width:200px;
+  height: 200px;
+
+}
+.q{
+  padding: 30px;
+  text-decoration-style: initial;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+}
+.about-section{
+  background-color: black;
+  color: white;
+}
+.row {
+  display: flex;
+}
+
+.column{
+  flex: 33.33%;
+  padding: 5px;
+
+}
+.BookNow {
+  margin: 0 auto;
+  display: block;
+  background: #fff;
+  color: #050000;
+  max-width: 218px;
+  padding: 11px 0px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.k{
+  padding:25px;
+  width:100px;
+  height:100px
+}
+.BookNow:hover {
+  color: #fff;
+  background: #050000
+}
+header .container-fluid {
+  max-width: 1850px;
+}
+.training {
+  margin-top: -90px;
+}
+
+.training_packages_bg {
+  background: grey;
+  padding: 80px 0px;
+}
+
+.training .training_packages_box {
+  text-align: center;
+  padding: 25px 40px;
+  border-right: #fff solid 1px;
+}
+
+.training .training_packages_box h3 {
+  font-size: 25px;
+  line-height: 28px;
+  color: #000;
+  font-weight: 500;
+  padding: 0;
+  text-transform: uppercase;
+}
+.con{
+ display: flex;
+  color:blue;
+}
+
+.training .training_packages_box h3:hover {
+  color: #fff;
+}
+
+.training .training_packages_box span {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 85px;
+  display: inline-block;
+}
+
+.training .training_packages_box p {
+  color: #ffff;
+  font-size: 70px;
+  line-height: 28px;
+  padding: 30px 0px;
+  font-weight: 400;
+  padding: 20px 0px 88px 0px;
+}
+
+.white_bold {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 46px;
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.tilte{
+  text-align: center;
+  justify-content: center;
+}
+h1{
+  text-transform: uppercase;
+}
+.fr{
+  border:2px;
+  text-transform: uppercase;
+  padding: 25px;
+  border-width: 2px;
+  border-style: solid;
+}
+.ccon{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color:blue;
+  font-size: medium;
+}
+#c{
+  color: blue;
+}
+
