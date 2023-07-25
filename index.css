@@ -252,8 +252,30 @@ h1{
 #c{
   color: blue;
 }
-@media only screen and (max-width: 768px) {
-  *{
-    width: 100%;
+@media only screen and (max-width: 375px) {
+  section{
+    width: 1024px;
+  }
+  .column{
+    height: 300px;
+    width: 300px;
+  }
+  header{
+    width: 1024px;
+  }
+  footer{
+    width:1024px;
+  }
+  .v{
+    height: 300px;
+    width: 300px;
+  }
+  .c{
+    height: 300px;
+    width: 300px;
+  }
+  .vo{
+    height: 300px;
+    width: 300px;
   }
 }
