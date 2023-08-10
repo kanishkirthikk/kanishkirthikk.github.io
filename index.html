@@ -1,31 +1,44 @@
 <!doctype html>
 <head>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>KKSPORTS</title>
     <header>
-        <img class ="logo" src="kksports.jpg"/>
-        <nav>
-            <ul>
-                <li><a href="#Home" style="color: white"><b>Home</b></a></li>
-                <li><a href="#About" style="color: white"><b>About</b></a></li>
-                <li><a href="#Contract" style="color: white"><b>Contract</b></a></li>
-                <li><a href="calc.html" style="color: white;"><b>Calculator</b></a></li>
-                <li><a href="listtodo.html" style="color: white;"><b>listtodo</b></a></li>
-                <li><button type="button" onclick="myFunction()">Dark</button></li>
-            </ul>
-        </nav>
+
     </header>
+     <div  class="container">
+      <div class="row">
+        <div class="col-12 col-xl-12 col-lg-12 col-sm-12 col-md-12">
+        <nav class="rounded-pill ">
+          <img class ="logo p-1" src="kksports.jpg"/>
+                <a href="#Home" class="p-1" style="color: white"><b>Home</b></a>
+                <a href="#About" class="p-1"  style="color: white"><b>About</b></a>
+                <a href="#Contract" class="p-1"  style="color: white"><b>Contact</b></a>
+                <a href="calc.html" class="p-1"  style="color: white;"><b>Calculator</b></a>
+                <a href="listtodo.html" class="p-1"  style="color: white;"><b>listtodo</b></a>
+                <button type="button" class="p-1"  onclick="myFunction()">Dark</button>
+            
+        </nav>
+        </div>
+        </div>
+        </div>
+    
    </head> 
-<body><script>
+
+<body>
+  <script>
   function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
   }
   </script>
     <Section id ="Home">
+      <div class="container">
+        <div class="row">
+      <div clas="col-12">
       <div class="title">
         <center><h2 style="text-align: center;">products</h2></center>
     </div>
@@ -78,28 +91,18 @@
           <td><center><a class="a" href="https://www.amazon.in/WIVIA-PENLOVA-Football-Grounds-Layered/dp/B0C7NW9197/ref=sr_1_1_sspa?crid=1YBW0UGIDW0V6&keywords=football+ball&qid=1689777522&s=sports&sprefix=football+bal%2Csporting%2C447&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> BUY:Amazon</a></center></td>
 
         </tr>
-        <tr> 
-          
-        </tr>
-       
+  
       </table>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="title">
-        <center><h2 style="text-align: center;">Exclusive training packages</h2></center>
-    </div>
+      </div>
+        </div>
+     <div class="row">
       <div id="training" class="training">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-                        </div>
-                    </div>
                     <div class="training_packages_bg">
+                      <div class="title">
+                        <center><h2 style="text-align: center;">Exclusive training packages</h2></center>
+                    </div>
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="col-col-lg-12 col-xl-12 col-md-12 col-sm-12">
                                 <div class="training_packages_box">
                                     <h3>CRICKET COACH</h3>
                                     <span>$<strong class="white_bold">85</strong></span>
@@ -107,7 +110,7 @@
                                     <a class="BookNow" href="#">Book Now</a>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="col-12">
                                 <div class="training_packages_box">
                                     <h3>FOOTBALL COACH</h3>
                                     <span>$<strong class="white_bold">85</strong></span>
@@ -115,7 +118,7 @@
                                     <a class="BookNow" href="#">Book Now</a>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="col-12">
                                 <div class="training_packages_box">
                                     <h3>VOLLEYBALL COACH</h3>
                                     <span>$<strong class="white_bold">85</strong></span>
@@ -123,34 +126,36 @@
                                     <a class="BookNow" href="#">Book Now</a>
                                 </div>
                                 </div>
-                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                  <div class="training_packages_box">
-                                      <h3>BASKETBALL COACH</h3>
-                                      <span>$<strong class="white_bold">85</strong></span>
-                                      <p>month</p>
-                                      <a class="BookNow" href="#">Book Now</a>
-                                  </div>
+                           
                             </div>
                         
                     </div>
                 </div>
             </div>
-      <div class="row">
-        <div class="column">
-          <img  class="v" src="virat.jpg" alt="Snow"  style="height: 270px;">
-        </div>
-        <div class="column">
-          <img class="c" src="cr7.jpg" alt="Forest" style="width:100%" style="height: 100%">
-        </div>
-        <div class="column">
-          <img class="vo" src="volley.jpg" alt="Mountains" style="width:100%" style="height: 80px;">
+          </div>
+
+      <div class="container">
+        <div class="row">
+          <div class=" col-12 d-flex">
+      
+          <img   style="width: 200px; height:200px;" src="virat.jpg" alt="Snow" >
+      
+        
+          <img   style="width: 200px; height:200px;"src="cr7.jpg" alt="Forest" >
+    
+      
+          <img   style="width: 200px; height:200px;"src="volley.jpg" alt="Mountains">
+        
         </div>
       </div>
-      
+        </div>
+  
     </Section>
-    <section id ="About">
+    <section id ="About" >
+      <div class="container">
+      <div class="row">
    
-      <div class="about-section">
+      <div class="about-section" class="col-12">
         <center><h1>About Us</h1></center>
         <center><img  class ="abtimg" src="kksports.jpg"/></center>
         <p>Welcome to KKSPORTS  Your Home for Sporting Excellence!
@@ -158,9 +163,16 @@
       </p>
       <p class ="q">“Hard work beats talent when talent doesn’t work hard.” – Tim Notke</p>
       </div>
+      </div>
+      </div>
+    
     </section>
     <section id="Contract">
-      <center><h1>Contract  Us</h1></center>
+      <div class="container">
+
+      <div class="row">
+      <div class="col-12">
+      <center><h1>Contact  Us</h1></center>
       <form  class ="fr" action="#">
         <table>
           <tr>
@@ -189,8 +201,12 @@
        </tr>
       </table>
       </form>
-      <div class ="con">
-       
+      </div>
+      </div>
+      </div>
+       <div class ="container con">
+        <div class="row">
+          <div class="col-12">
       <img class="k" src="sport.jpg">
       <table>
        <tr><td><img src="phone_icon.png "width="20px"heigth="20px">:91+9883459299</td></tr>
@@ -200,10 +216,19 @@
       <tr><td><a id="c" href = "https://goo.gl/maps/nugv46jypexKRKqL6"><img src="loc.png" width="20px; "heigth="20px">POLLACHI,COIMBATORE.</a></td></tr>
       </table>
       </div>
+        </div>
+      </div>
+  
     </section>
-
+       
 </body>
-<footer>
+<footer class="rounded-pill ">
+  <div  class="container">
+    <div class="row">
+      <div class="col-12 text-center bg-secondary rounded-pill text-white">
    <b>Copyrights@KKSPORTS</b>
+    </div>
+    </div>
+  </div>
 </footer>
 </html>
