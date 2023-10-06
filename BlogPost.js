@@ -8,14 +8,14 @@ import Card  from "react-bootstrap/Card";
 import CardBody from "react-bootstrap/CardBody";
 import  CardText  from "react-bootstrap/CardText";
 import  CardTitle  from "react-bootstrap/CardTitle";
-
 import { Col, Container, Row } from "react-bootstrap";
+
 export default function BlogPost(props){
 
 return(
     <div>
     <Container className="bgcon">
-        <Row style={{marginTop:'50%'}}>
+        <Row style={{marginTop:'40%'}}>
     {props.data.map(p=>(
         <Col>
     <Card  className=" bg border-danger-subtle" style={{ width: '18rem', minHeight:'400px'}}>
@@ -32,7 +32,8 @@ return(
     </Row>
     </Container>
     </div>
-
+    
+  
 );
 }
 

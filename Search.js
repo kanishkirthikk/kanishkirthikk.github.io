@@ -7,8 +7,9 @@ export default function Search() {
   const [data, setData] = useState("");
   const [showBlogPost, setShowBlogPost] = useState(false); 
 
+
   const handleChange = function (event) {
-    setData(event.target.value);
+    setData(event.target.value); 
   };
 
   const handleClick = function () {
@@ -25,11 +26,11 @@ export default function Search() {
           aria-label="Search"
           onChange={handleChange}
         />
-        <Button variant="outline-success" onClick={handleClick}>
+        <Button variant="outline-danger" onClick={handleClick}>
           Search
         </Button>
       </Form>
-      {showBlogPost && <BlogPost data={post.filter(p => p.title === data)} />}
+      {showBlogPost && <BlogPost data={post.filter(p => p.title === data)}  />}
       </Container>
     </>
   );
